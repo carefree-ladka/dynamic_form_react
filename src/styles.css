@@ -1,0 +1,54 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  min-height: 100vh;
+  width: min(90%, 50rem);
+  margin-inline: auto auto;
+  background: #282828;
+  color: #87ceeb;
+}
+h1 {
+  letter-spacing: 1px;
+  text-align: center;
+}
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__line input {
+  margin: 2rem 1rem;
+  outline: none;
+  border: none;
+  padding: 12px;
+}
+button {
+  margin: 2rem 0.2rem;
+  outline: none;
+  border: none;
+  padding: 12px;
+  background: #e6e6e6;
+  border-radius: 5px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  height: 40px;
+}
+button:hover {
+  background: #282828;
+  border: 1.4px solid #e6e6e6;
+  color: #e6e6e6;
+  transition-property: border-color, background, color, transform, box-shadow;
+  transition-duration: 0.15s;
+  transition-timing-function: ease;
+}
+.submit__btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
